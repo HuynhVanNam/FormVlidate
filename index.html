@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+<body>
+  <div class="login_backroud">
+    <img src="./assets/img/img_01.png" alt="backroud login" class="login_backroud-img">
+    <div class="form-container">
+      <div class="logo-container">
+        Login
+      </div>
+      <form class="form" id="myForm">
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+          <span id="nameError" class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+          <span id="emailError" class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="Password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+          <span id="passwordError" class="error"></span>
+        </div>
+        <button class="form-submit-btn" type="submit" value="submit">Submit</button>
+      </form>
+      <p class="signup-link">
+        Don't have an account?
+        <a href="#" class="signup-link link"> Sign up now</a>
+      </p>
+    </div>
+  </div>
+</body>
+<script src="./assets/js/main.js"></script>
+</html>
+
+
+
